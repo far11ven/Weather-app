@@ -11,28 +11,28 @@
    <link rel="stylesheet" href="https://kushalbhalaik.xyz/pace.css">
    
    <link rel="icon" type="image/x-icon" href="favicon.ico">
-   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
+   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Caveat" />
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <meta name="keywords"
       content="weather in shimla, shimla weather, Himachal weather, Himachal bhutti weather,  Himachal kotgarh weather,  kotgarh india weather weather app, bhutti weather, yr.no weather, weather forecast, bhutti himachal pradesh weather, kotgarh, kotgarh weather, kotgarh weather forecast,thanedhaar, thanedhaar weather foreacast, thanedhaar, kholighat weather forecast, narkanda, narkanda weather forecast, himachal pradesh weather forecast,kushal, bhalaik, kushal bhalaik instagram">
    <meta name="description" content="kushalbhalaik on 8link - kushalbhalaik.xyz">
-   <meta property="og:url" content="http://www.app.kushalbhalaik.xyz/weather.html">
+   <meta property="og:url" content="http://www.apps.kushalbhalaik.xyz/Weather-app">
    <meta property="og:type" content="website">
    <meta property="og:title" content="Kushal Bhalaik">
    <meta property="og:description" content="Weather forecast from yr.no - kushalbhalaik.xyz">
-   <meta property="og:image" content="/assets/logo.png">
+   <meta property="og:image" content="/Weather-app/assets/logo.png">
 
    <link rel="manifest" href="manifest.json" />
    <!-- ios support -->
-   <link rel="apple-touch-icon" href="/assets/icons/icon-72x72.png" />
-   <link rel="apple-touch-icon" href="/assets/icons/icon-96x96.png" />
-   <link rel="apple-touch-icon" href="/assets/icons/icon-128x128.png" />
-   <link rel="apple-touch-icon" href="/assets/icons/icon-144x144.png" />
-   <link rel="apple-touch-icon" href="/assets/icons/icon-152x152.png" />
-   <link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png" />
-   <link rel="apple-touch-icon" href="/assets/icons/icon-384x384.png" />
-   <link rel="apple-touch-icon" href="/assets/icons/icon-512x512.png" />
+   <link rel="apple-touch-icon" href="/Weather-app/assets/icons/icon-72x72.png" />
+   <link rel="apple-touch-icon" href="/Weather-app/assets/icons/icon-96x96.png" />
+   <link rel="apple-touch-icon" href="/Weather-app/assets/icons/icon-128x128.png" />
+   <link rel="apple-touch-icon" href="/Weather-app/assets/icons/icon-144x144.png" />
+   <link rel="apple-touch-icon" href="/Weather-app/assets/icons/icon-152x152.png" />
+   <link rel="apple-touch-icon" href="/Weather-app/assets/icons/icon-192x192.png" />
+   <link rel="apple-touch-icon" href="/Weather-app/assets/icons/icon-384x384.png" />
+   <link rel="apple-touch-icon" href="/Weather-app/assets/icons/icon-512x512.png" />
    <meta name="apple-mobile-web-app-status-bar" content="#db4938" />
    <meta name="theme-color" content="#db4938" />
 
@@ -43,7 +43,7 @@
       if ("serviceWorker" in navigator) {
 
          navigator.serviceWorker
-            .register('https://kushalbhalaik.xyz/serviceWorker.js', { scope: './' })
+            .register('/Weather-app/serviceWorker.js', { scope: './' })
             .then(res => console.log("service worker registered"))
             .catch(err => console.log("service worker not registered", err))
 
@@ -55,7 +55,7 @@
 <body>
    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <a class="navbar-brand dark-wh" href="/"><img style="height:40px;"
-            src="/assets/logo.png" /></a>
+            src="/Weather-app/assets/logo.png" /></a>
       <button class="navbar-toggler collapsed position-relative" type="button" data-toggle="collapse"
          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
          aria-label="Toggle navigation">
@@ -73,8 +73,8 @@
          <span class="navbar-text">
             <div id="theme" class="dark-th" style="color: rgba(0, 0, 0, 0.5);">
                <label class="switch">
-                  <img id="sw_light" src="/assets/images/icons/svg/light.inline.svg" onclick="themeSelection()">
-                  <img id="sw_dark" src="/assets/images/icons/svg/dark.inline.svg" onclick="themeSelection()">
+                  <img id="sw_light" src="/Weather-app/assets/images/icons/svg/light.inline.svg" onclick="themeSelection()">
+                  <img id="sw_dark" src="/Weather-app/assets/images/icons/svg/dark.inline.svg" onclick="themeSelection()">
                </label>
             </div>
          </span>
